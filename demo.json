@@ -1,0 +1,334 @@
+{
+  "user": {
+    "id": "USR-001",
+    "name": "Shubham",
+    "email": "ananya.verma@demo.gov.in",
+    "password": "Demo@12345",
+    "role": "Statistical Investigator",
+    "department": "MoSPI",
+    "projectId": "SIH26101"
+  },
+  "assessments": [
+    {
+      "id": "ASM-001",
+      "domain": "statisticalMethods",
+      "score": 72,
+      "title": "Statistical Methods Fundamentals Quiz"
+    },
+    {
+      "id": "ASM-002",
+      "domain": "statisticalMethods",
+      "score": 81,
+      "title": "Sampling Techniques Assessment"
+    },
+    {
+      "id": "ASM-003",
+      "domain": "dataQuality",
+      "score": 76,
+      "title": "Data Quality Fundamentals"
+    },
+    {
+      "id": "ASM-004",
+      "domain": "dataQuality",
+      "score": 86,
+      "title": "Data Validation & Audit Assessment"
+    },
+    {
+      "id": "ASM-005",
+      "domain": "gis",
+      "score": 58,
+      "title": "GIS Fundamentals Assessment"
+    },
+    {
+      "id": "ASM-006",
+      "domain": "gis",
+      "score": 69,
+      "title": "Spatial Statistics Assessment"
+    },
+    {
+      "id": "ASM-007",
+      "domain": "python",
+      "score": 64,
+      "title": "Python Basics Test"
+    },
+    {
+      "id": "ASM-008",
+      "domain": "python",
+      "score": 78,
+      "title": "Python for Data Analysis"
+    },
+    {
+      "id": "ASM-009",
+      "domain": "machineLearning",
+      "score": 42,
+      "title": "Machine Learning Fundamentals"
+    },
+    {
+      "id": "ASM-010",
+      "domain": "statisticalMethods",
+      "score": 91,
+      "title": "Regression & Time Series Assessment"
+    }
+  ],
+  "courses": [
+    {
+      "id": "CRS-001",
+      "domain": "statisticalMethods",
+      "title": "Applied Statistical Methods",
+      "score": 85,
+      "hours": 10
+    },
+    {
+      "id": "CRS-002",
+      "domain": "statisticalMethods",
+      "title": "Advanced Sampling Techniques",
+      "score": 92,
+      "hours": 12
+    },
+    {
+      "id": "CRS-003",
+      "domain": "statisticalMethods",
+      "title": "Regression & Time Series",
+      "score": 95,
+      "hours": 8
+    },
+    {
+      "id": "CRS-004",
+      "domain": "dataQuality",
+      "title": "Data Quality Assurance",
+      "score": 82,
+      "hours": 8
+    },
+    {
+      "id": "CRS-005",
+      "domain": "dataQuality",
+      "title": "Validation & Error Detection",
+      "score": 88,
+      "hours": 7
+    },
+    {
+      "id": "CRS-006",
+      "domain": "gis",
+      "title": "GIS for Official Statistics",
+      "score": 75,
+      "hours": 10
+    },
+    {
+      "id": "CRS-007",
+      "domain": "gis",
+      "title": "Spatial Analysis Techniques",
+      "score": 81,
+      "hours": 10
+    },
+    {
+      "id": "CRS-008",
+      "domain": "python",
+      "title": "Python for Statistical Analysis",
+      "score": 72,
+      "hours": 12
+    },
+    {
+      "id": "CRS-009",
+      "domain": "python",
+      "title": "Pandas & Data Automation",
+      "score": 79,
+      "hours": 9
+    },
+    {
+      "id": "CRS-010",
+      "domain": "machineLearning",
+      "title": "Machine Learning Foundations",
+      "score": 58,
+      "hours": 6
+    }
+  ],
+  "selfAssessment": {
+    "statisticalMethods": [
+      4,
+      5,
+      4,
+      4.5
+    ],
+    "dataQuality": [
+      4,
+      4,
+      4,
+      3.5
+    ],
+    "python": [
+      3,
+      3,
+      4,
+      3
+    ],
+    "gis": [
+      2.5,
+      3,
+      2,
+      3
+    ],
+    "machineLearning": [
+      2,
+      1.5,
+      2,
+      1.5
+    ]
+  },
+  "learningHours": {
+    "statisticalMethods": 40,
+    "dataQuality": 26,
+    "python": 30,
+    "gis": 24,
+    "machineLearning": 12
+  },
+  "modules": [
+    {
+      "step": 1,
+      "title": "GIS Fundamentals",
+      "status": "Completed",
+      "state": "done",
+      "progress": 100,
+      "duration": "8 hrs",
+      "lessons": "6 / 6"
+    },
+    {
+      "step": 2,
+      "title": "GIS for Statistics",
+      "status": "In Progress",
+      "state": "active",
+      "progress": 72,
+      "duration": "10 hrs",
+      "lessons": "6 / 8"
+    },
+    {
+      "step": 3,
+      "title": "Spatial Analysis Techniques",
+      "status": "Locked",
+      "state": "locked",
+      "progress": 0,
+      "duration": "8 hrs",
+      "lessons": "0 / 7"
+    },
+    {
+      "step": 4,
+      "title": "Assessment & Certification",
+      "status": "Locked",
+      "state": "locked",
+      "progress": 0,
+      "duration": "6 hrs",
+      "lessons": "0 / 3"
+    }
+  ],
+  "documents": [
+    {
+      "id": "DOC-001",
+      "name": "Statistical Methods – Study Notes.pdf",
+      "category": "Learning Materials",
+      "size": "2.4 MB"
+    },
+    {
+      "id": "DOC-002",
+      "name": "Data Quality Framework – MoSPI Guidelines.pdf",
+      "category": "Learning Materials",
+      "size": "1.8 MB"
+    },
+    {
+      "id": "DOC-003",
+      "name": "GIS Fundamentals – Assessment Report.pdf",
+      "category": "Assessments",
+      "size": "0.9 MB"
+    },
+    {
+      "id": "DOC-004",
+      "name": "Python Pandas Cheatsheet.pdf",
+      "category": "Learning Materials",
+      "size": "0.5 MB"
+    },
+    {
+      "id": "DOC-005",
+      "name": "Machine Learning Fundamentals Guide.pdf",
+      "category": "Learning Materials",
+      "size": "2.1 MB"
+    },
+    {
+      "id": "DOC-006",
+      "name": "Q2 2026 Competency Progress Report.pdf",
+      "category": "Reports",
+      "size": "1.3 MB"
+    }
+  ],
+  "certificates": [
+    {
+      "id": "CERT-001",
+      "title": "Statistical Methods Fundamentals",
+      "issuer": "StatSkill AI Academy",
+      "issued": "12 Jan 2026",
+      "expires": "12 Jan 2028",
+      "status": "Active",
+      "color": "green"
+    },
+    {
+      "id": "CERT-002",
+      "title": "Data Quality Assurance",
+      "issuer": "StatSkill AI Academy",
+      "issued": "03 Mar 2026",
+      "expires": "03 Mar 2028",
+      "status": "Active",
+      "color": "blue"
+    },
+    {
+      "id": "CERT-003",
+      "title": "GIS Fundamentals",
+      "issuer": "StatSkill AI Academy",
+      "issued": "28 Apr 2026",
+      "expires": "28 Apr 2027",
+      "status": "Expiring Soon",
+      "color": "amber"
+    },
+    {
+      "id": "CERT-004",
+      "title": "Python for Data Analysis",
+      "issuer": "StatSkill AI Academy",
+      "issued": "15 Jun 2026",
+      "expires": "15 Jun 2028",
+      "status": "Active",
+      "color": "green"
+    },
+    {
+      "id": "CERT-005",
+      "title": "GIS for Statistics",
+      "issuer": "StatSkill AI Academy",
+      "issued": "—",
+      "expires": "—",
+      "status": "In Progress",
+      "color": "blue",
+      "progress": 72
+    }
+  ],
+  "notifications": [
+    {
+      "id": "N-001",
+      "title": "GIS for Statistics — 72% complete",
+      "time": "2h ago",
+      "color": "cyan"
+    },
+    {
+      "id": "N-002",
+      "title": "New assessment scheduled: Regression & Time Series",
+      "time": "5h ago",
+      "color": "amber"
+    },
+    {
+      "id": "N-003",
+      "title": "Statistical Methods competency improved to 4.3 / 5",
+      "time": "1d ago",
+      "color": "green"
+    },
+    {
+      "id": "N-004",
+      "title": "Python competency assessment completed",
+      "time": "2d ago",
+      "color": "purple"
+    }
+  ]
+}
