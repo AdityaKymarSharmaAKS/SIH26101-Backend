@@ -17,10 +17,10 @@ from pydantic import BaseModel, EmailStr, Field
 BASE_DIR = Path(__file__).resolve().parent
 DATA_FILE = Path(os.getenv("STATSKILL_DATA_FILE", BASE_DIR / "demo.json"))
 FRONTEND_ORIGINS = [
-    origin.strip()
+    origin.strip().rstrip("/")
     for origin in os.getenv(
         "STATSKILL_CORS_ORIGINS",
-        "https://statskill-ftech.vercel.app/",
+        "https://statskill-ftech.vercel.app,http://localhost:5173,http://127.0.0.1:5173",
     ).split(",")
     if origin.strip()
 ]
